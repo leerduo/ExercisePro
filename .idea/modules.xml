@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExercisePro.iml" filepath="$PROJECT_DIR$/ExercisePro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bezieranimation/bezieranimation.iml" filepath="$PROJECT_DIR$/bezieranimation/bezieranimation.iml" />
+    </modules>
+  </component>
+</project>
