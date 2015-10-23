@@ -43,7 +43,7 @@ public class BezierLayout extends RelativeLayout {
 
     private Random random = new Random();//0~1
 
-    //插值器
+    //估值器
     private Interpolator line = new LinearInterpolator();
     private Interpolator acc = new AccelerateInterpolator();
     private Interpolator dec = new DecelerateInterpolator();
@@ -160,7 +160,7 @@ public class BezierLayout extends RelativeLayout {
         PointF pointF0 = new PointF((measuredWidth - width) / 2, measuredHeight - height);
         PointF pointF3 = new PointF(random.nextInt(measuredWidth),0);
 
-        //通过估值器来控制View的运动路径
+        //通过插值器来控制View的运动路径
         BezierEvaluator evaluator = new BezierEvaluator(pointF1,pointF2);
         ValueAnimator animator = ValueAnimator.ofObject(evaluator,pointF0,pointF3);
         animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {

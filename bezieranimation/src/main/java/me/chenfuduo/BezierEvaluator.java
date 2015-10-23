@@ -5,6 +5,7 @@ import android.graphics.PointF;
 
 /**
  * Created by chenfuduo on 2015/10/23.
+ * 估值器
  */
 public class BezierEvaluator implements TypeEvaluator<PointF> {
 
