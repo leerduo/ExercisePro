@@ -11,12 +11,12 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity">
 
-    <Button
+   <!-- <Button
         android:background="@color/pink_500"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="startAnimation"
-        android:text="开启动画" />
+        android:text="开启动画" />-->
 
     <me.chenfuduo.BezierLayout
         android:background="@color/pink_100"
